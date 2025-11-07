@@ -1,6 +1,6 @@
 CC = gcc
 EXE = SDL3_template 
-SOURCES = main.c
+SOURCES = main.c stk.c
 OBJS = $(addsuffix .o, $(basename $(notdir $(SOURCES))))
 UNAME_S := $(shell uname -s)
 
